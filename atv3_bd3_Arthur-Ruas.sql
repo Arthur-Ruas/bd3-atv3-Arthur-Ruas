@@ -43,7 +43,7 @@ telefone_aluno			varchar(11),
 telefone_responsavel 	varchar(11),
 email					varchar(100),
 data_nascimento			date,
-data_delete				date,
+data_delete				datetime,
 
 constraint pk_aluno primary key (cod_aluno)
 ); 
